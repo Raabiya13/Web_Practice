@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Facebook _ log in </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section{
+            height: 700px;
+            width: 100vw;
+            background-color: #F2F4F7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+        }
+
+        #left_container{
+            margin-bottom: 150px;
+            display: flex;
+            justify-content: center;
+            border: none;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        #right_container{
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            flex-direction: column;
+        }
+
+
+
+        #left_container h1{
+            color: #0866FF;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+
+
+
+        #left_container p{
+            color: black;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 1.7rem;
+        }
+
+        .Login-container{
+            border: none;
+            box-shadow: 0px 5px 10px gray;
+            height: 350px;
+            width: 400px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+            
+            
+            
+
+        }
+
+        .Login-container input{
+            padding: 15px 83px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 1rem;
+            align-self:none;
+            
+          
+        }
+
+        input[type=text] {
+        border: .5px solid rgb(159, 151, 151);
+        border-radius: 4px;
+        text-align: start;
+        }
+
+        .login-btn{
+            padding: 15px 153px;
+            background-color: #1877F2;
+            border-radius: 5px;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 700;
+            border: none;
+            margin-top: 20px;
+        }
+
+        .acc-btn{
+            padding: 15px 15px;
+            background-color: #4fa63d;
+            border-radius: 5px;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 700;
+            border: none;
+            margin-top: 10px;
+        }
+
+        .forget-pass{
+            color: blue;
+            font-family: sans-serif;
+            font-size: .9rem;
+            margin: 20px;
+        }
+
+        #right_container p{
+            margin-top: 30px;
+            font-family: sans-serif;
+
+        }
+
+        .acc-btn:hover{
+            cursor: pointer;
+            background-color: #30901d;
+        }
+
+        .forget-pass:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .login-btn:hover{
+            cursor: pointer;
+            background-color:#3086f7;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <section>
+        <aside id="left_container">
+            <h1>facebook</h1>
+            <p>Facebook helps you coonnect and share <br> with the people in your life.</p>
+        </aside>
+
+        <aside id="right_container">
+            <form class="Login-container">
+                <input type="text" placeholder="Email address or phone number ">
+                <input type="text" placeholder="password">
+                <button class="login-btn">Log in</button>
+                <p class="forget-pass">Forgetten password?</p>
+                
+                <button class="acc-btn">Create new account</button>
+            </form>
+            <p><strong>Create a Page</strong> for celebrity, brand or buisness</p>
+        </aside>
+    </section>
+    
+</body>
+</html>
